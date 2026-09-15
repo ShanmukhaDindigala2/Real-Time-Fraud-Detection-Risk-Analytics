@@ -64,3 +64,5 @@ Risk Score
 Risk Level
        ↓
 Streamlit Dashboard
+<img width="1911" height="934" alt="image" src="https://github.com/user-attachments/assets/c1f2c870-8774-4c83-9714-4a4df207773b" />
+
