@@ -1,0 +1,59 @@
+Real-Time Fraud Detection & Risk Analytics System is a machine learning-based application designed to identify potentially fraudulent financial transactions and assign a corresponding risk level. The system analyzes transaction characteristics such as transaction amount, transaction time, device type, location changes, failed attempts, transaction frequency, account age, and distance from the previous transaction.
+
+The project implements a complete machine learning pipeline, starting from transaction data generation and preprocessing, followed by feature engineering, model training, evaluation, and real-time prediction. A Random Forest Classifier is used to classify transactions based on their fraud risk.
+
+The trained model is integrated with a Streamlit dashboard, allowing users to enter transaction details and instantly receive a fraud probability, risk score, and risk level.
+
+🚀 Key Features
+📊 Synthetic financial transaction dataset generation
+🧹 Data cleaning and preprocessing
+⚙️ Feature engineering for fraud-related patterns
+🤖 Random Forest-based fraud classification
+📈 Model evaluation using accuracy, precision, recall, F1-score and ROC-AUC
+🔢 Real-time fraud probability prediction
+🎯 Dynamic risk scoring from 0–100
+🚦 Risk classification into Low, Medium, and High
+🖥️ Interactive Streamlit dashboard
+🌐 FastAPI backend for prediction APIs
+💾 Saved ML model and preprocessing components using Pickle
+📓 Exploratory analysis through Jupyter Notebook
+🔄 System Workflow
+Transaction Data
+       ↓
+Data Generation
+       ↓
+Data Preprocessing
+       ↓
+Feature Engineering
+       ↓
+Train/Test Split
+       ↓
+Random Forest Model
+       ↓
+Model Evaluation
+       ↓
+Trained Model
+       ↓
+Real-Time Prediction
+       ↓
+Fraud Probability
+       ↓
+Risk Score
+       ↓
+Low / Medium / High Risk
+       ↓
+Streamlit Dashboard
+🛠️ Technologies Used
+Python
+Pandas
+NumPy
+Scikit-learn
+Random Forest
+XGBoost
+FastAPI
+Streamlit
+Matplotlib
+Seaborn
+Joblib
+PyYAML
+Jupyter Notebook
